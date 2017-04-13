@@ -1,0 +1,255 @@
+body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 44px;
+  line-height: 44px;
+  border-bottom: 1px solid #ccc;
+  span {
+    position: absolute;
+    color: #b2b2b2;
+  }
+  :nth-child(1) {
+    left: 10px;
+  }
+  :nth-child(2) {
+    right: 10px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 17px;
+    color: #444444;
+  }
+}
+
+//section {
+//  overflow-y: auto; }
+
+.content {
+  flex: 1;
+}
+
+.min {
+  .top {
+    height: 44px;
+    line-height: 44px;
+    p
+    b {
+      font-size: 14px;
+      font-weight: bold;
+      padding-left: 30px;
+    }
+    span {
+      font-size: 12px;
+      padding-left: 30px;
+    }
+  }
+  .bottom {
+    height: 44px;
+    line-height: 20px;
+    position: relative;
+    font-size: 14px;
+    p {
+      width: 80%;
+      margin: 0 auto;
+    }
+    span {
+      position: absolute;
+    }
+    :nth-child(1) {
+      left: 10px;
+    }
+    :nth-child(2) {
+      top: -3px;
+      right: 10px;
+    }
+
+  }
+}
+
+.sty1, .sty2, .sty3 {
+  height: 10px;
+  background-color: #eeeeee;
+}
+
+.sty1 {
+  margin-top: 10px;
+  background: url("../images/sty1.png") repeat-x;
+}
+
+.sty3 {
+  margin-top: 8px;
+}
+
+.nav {
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  p
+  img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  span {
+    position: absolute;
+    top: -2px;
+    left: 40px;
+  }
+
+}
+
+.hospital {
+  position: relative;
+  .tooth {
+    div {
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      p {
+        padding-left: 10px;
+        img {
+          width: 102px;
+          height: 102px;
+        }
+        span {
+          position: absolute;
+          width: 55%;
+          top: 0;
+          left: 35%;
+        }
+      }
+      .btt {
+        position: absolute;
+        bottom: 10px;
+        right: 10%;
+        .txt {
+          width: 35px;
+          height: 24px;
+          text-align: center;
+          padding-bottom: .5px;
+          margin-left: - 5.5px;
+          margin-right: - 5.5px;
+        }
+        .btn {
+          background-color: #fff;
+          border: 1px solid #ccc;
+          width: 29px;
+          height: 29px;
+        }
+        .btn1 {
+          border-radius: 6px 0 0 6px;
+        }
+        .btn2 {
+          border-radius: 0 6px 6px 0;
+        }
+
+      }
+      .price1, .price2 {
+        font-weight: bold;
+        color: red;
+        position: absolute;
+        bottom: 25px;
+        left: 35%;
+      }
+      .price2 {
+        font-size: 15px;
+        left: 40%;
+      }
+      .price3 {
+        text-decoration: line-through;
+        position: absolute;
+        bottom: 5px;
+        left: 35%;
+        font-size: 12px;
+      }
+
+    }
+  }
+}
+
+.tite {
+  margin-top: 25px;
+  height: 75px;
+  p {
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    margin-left: 10px;
+    span {
+      position: absolute;
+    }
+    :nth-child(2) {
+      right: 10px;
+    }
+  }
+}
+
+.tite1 {
+  position: relative;
+  p {
+    height: 57px;
+    line-height: 57px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    margin-left: 10px;
+    span {
+      position: absolute;
+    }
+    :nth-child(2) {
+      right: 10px;
+    }
+  }
+  .checkep {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+  .checkep1 {
+    position: absolute;
+    top: 75px;
+    right: 20px;
+  }
+
+}
+
+.red {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom: 0;
+  p {
+    float: left;
+    padding: 0 15px;
+  }
+  a {
+    float: right;
+    width: 120px;
+    height: 44px;
+    background: #fc4141;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+
+

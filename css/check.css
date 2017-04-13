@@ -1,0 +1,33 @@
+
+
+
+#aaa + label{
+    display: block;
+    width: 50px;
+    height: 25px;
+    background: #ccc;
+    border-radius: 50px;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+}
+
+.checked_btn{
+    position: absolute;
+    height: 25px;
+    left: 0;
+    right: 25px;
+    background: #fff;
+    border-radius: 100%;
+    -webkit-transition: all 0.5s ease;
+}
+#aaa:checked + label{
+    background: #008000;
+}
+#aaa:checked + label .checked_btn{
+    -webkit-transition: all 0.5s ease;
+    left: 25px;
+    right: 0;
+}
+#aaa{
+    display: none;
+}
